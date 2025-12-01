@@ -166,10 +166,22 @@ function createLevel2() {
     createPlatform(750, 150, 80, 20);
     createPlatform(50, 350, 80, 20);
     
-    // More tokens
-    for (let i = 0; i < 15; i++) {
-        createToken(random(50, 750), random(80, 450));
-    }
+    // Tokens placed on accessible platform locations
+    createToken(50, 440);
+    createToken(200, 380);
+    createToken(350, 320);
+    createToken(500, 260);
+    createToken(650, 200);
+    createToken(500, 140);
+    createToken(350, 80);
+    createToken(200, 140);
+    createToken(100, 220);
+    createToken(750, 310);
+    createToken(750, 110);
+    createToken(50, 310);
+    createToken(150, 550);
+    createToken(450, 550);
+    createToken(650, 550)
     
     // More enemies
     createEnemy(300, 340, 250, 450);
@@ -221,10 +233,34 @@ function createLevel3() {
     createPlatform(680, 140, 80, 15);
     createPlatform(400, 60, 100, 15);
     
-    // Many tokens
-    for (let i = 0; i < 20; i++) {
-        createToken(random(50, 750), random(40, 480));
-    }
+    // Tokens placed on accessible platform locations
+    // Ground tokens
+    createToken(100, 540);
+    createToken(700, 540);
+    // Lower tier tokens
+    createToken(250, 480);
+    createToken(400, 460);
+    createToken(550, 480);
+    // Middle tier tokens
+    createToken(100, 380);
+    createToken(220, 340);
+    createToken(360, 310);
+    createToken(500, 340);
+    createToken(640, 380);
+    createToken(750, 340);
+    // Upper tier tokens
+    createToken(50, 260);
+    createToken(170, 220);
+    createToken(300, 180);
+    createToken(430, 140);
+    createToken(560, 180);
+    createToken(680, 220);
+    // Top tier tokens
+    createToken(120, 100);
+    createToken(300, 60);
+    createToken(500, 60);
+    createToken(680, 100);
+    createToken(400, 20)
     
     // Many enemies
     createEnemy(300, 480, 220, 430);
